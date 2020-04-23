@@ -178,7 +178,7 @@ function Appstart() {
             {
                 type: "input",
                 name: "internId",
-                message: "What is your manager's id?",
+                message: "What is your intern's id?",
                 validate: answer => {
                     const pass = answer.match(
                         /^[1-9]\d*$/
@@ -192,7 +192,7 @@ function Appstart() {
             {
                 type: "input",
                 name: "internEmail",
-                message: "What is your manager's email?",
+                message: "What is your intern's email?",
                 validate: answer => {
                     const pass = answer.match(
                         /\S+@\S+\.\S+/
